@@ -7,6 +7,8 @@ End - 5:30 PM IST
 		3.30 PM
 
 LAB + DEMO == AWS
+========================================
+https://www.devopsschool.com/blog/10-best-youtube-channels-for-programmers-and-devops-engineers/
 ============================================================================================
 ============================================================================================
 What is Jenkins?
@@ -141,12 +143,100 @@ Demo of Ubuntu
 
 ======================
 Terminology
+============================
+Job == Item == Project
+Agent == Node == Slave
+=============================
+Each Job Phases
+------------------------
+General
+SCM
+	git
+	svn
+Build Triggers
+	When this job can build.
+Build Env
+	- Setting up req env for this job
+Build
+	Calling Builder
+	- cmd | script
+	- shell | ps
+	- maven
+	- ant
+	- gradle
+	- msbuild
+	- sel
+	- anything of cmd or script
+Post-Build-Action
+	- send an email
+	- trigger another job
+	- chat
+	
 
 Workflow
+--------------------
+Human - Create a job 
+					Phases
+						steps
+		- run a job
+		- job would execute in Node
+		- get u the output
+======================================================================
+Jenkins Introduction		DONE
+Jenkins Basic Workflow		DONE
+Jenkins Scheduling
+Jenkins Integration
+Jenkins Notification
+Jenkins Adminis
+Jenkins Cmd/Api
 
+
+
+Jenkins Basic Workflow
+==========================================================================
 Secret Formula
+-----------------------------------------------
+What is your technology?	JAVA - NET - PYTHON - RUBY
+						WHICH VERSION?
+Where is your code?? git 
+						- which version
+						- access
+How often u want this job to be trigger?
+						- hourly - daily - n - w - m
+Which is the builder?
+					maven - gradle - shell - batch - ps - python
+					which version?
+How do you want feedback?
+				- email - chat
 
+=================================================
+https://www.devopsschool.com/blog/configure-jenkins-first-job-of-java-code-base-with-maven-build-tool/
 
+What is your technology?	
+- Java 
+- j 11
+					
+Where is your code?? git 
+- https://github.com/devopsschool-demo-labs-projects/helloworld-java-maven
+			
+How often u want this job to be trigger?
+- Hourly
+			
+Which is the builder?
+- maven
+		pom.xml (goals)
+		- compile (mvn compile)
+		- test
+		- package
+- ant	
+		build.xml (target)
+- gradle
+		build.gradle (tasks)
+
+				
+How do you want feedback?
+- email - rajesh@devopsschool.com
+			
 
 
 
