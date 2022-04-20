@@ -1,0 +1,167 @@
+Start - 9:30 AM IST
+End - 5:30 PM IST
+-----------------------------
+1 - 2 = LUNCH TIME
+15 mins - 
+		11.30 PM
+		3.30 PM
+
+LAB + DEMO == AWS
+============================================================================================
+============================================================================================
+What is Jenkins?
+--------------------------
+		CI tool
+		Dev in JAVA
+		Release
+		- Community - Jenkins - Free - OpenSource - https://www.jenkins.io/
+		- Jenkins Enterprise by CloudBees - Paid - https://www.cloudbees.com/
+		- BlueOcean - Pipeline - https://www.jenkins.io/projects/blueocean/
+		- JenkinsX - Container - https://jenkins-x.io/
+
+		Powered by 1000s of plugins
+		- https://plugins.jenkins.io/
+		- plugins	- U want to EXTEND a feature of the product
+					- a Code which extend the core of the product
+		- Module 
+					- a Code which RUN on OTHERS by the product
+
+		Version
+		2.X
+		
+			
+	
+	
+What is CI?
+--------------------------
+Auto Build + Auto Testing
+--------------------------
+	IMM Feedback
+
+PHASE SDLC Cycle
+----------------------------------
+PLAN -> CODE -> Code Review -> Build -> UT -> Packaging -> Archiving -> Dep2QA -> AT -> CodeCoverage
+
+PLAN -> CODE -> Code Review -> Build -> UT -> Packaging -> Archiving -> Dep2QA -> AT -> CodeCoverage
+----------------------------------------------------------------------------------------------------
+ARCH -> DEV ----------------------------------------------------------> QA ------------------------->
+
+PLAN -> CODE -> Code Review -> Build -> UT -> Packaging -> Archiving -> Dep2QA -> AT -> CodeCoverage
+-----------------------------------------------------------------------------------------------------
+JIRA -> GIT  -> Sonarqube   -> Maven -> Junit-> WAR     -> Nexus     -> Ansible -> Selenium -> Jacoco
+
+																ALL PASS - Release
+																ONE FAILED - Repeat
+
+
+https://www.devopsschool.com/path/
+
+What do we want??
+-----------------------------
+All Automation
+NO manual work
+
+PLAN -> CODE -> Code Review -> Build -> UT -> Packaging -> Archiving -> Dep2QA -> AT -> CodeCoverage
+-----------------------------------------------------------------------------------------------------
+JIRA -> GIT  -> Sonarqube   -> Maven -> Junit-> WAR     -> Nexus     -> Ansible -> Selenium -> Jacoco
+
+========================================================================================================
+									JENKINS
+Give me a tool which would
+----------------------------------------------
+- Integ all phases of SDLC
+- Integ all Teams
+- Integ all Tools
+----------------------------
+		
+OTHERS
+-------------------------------------------------------
+Teamcity
+Bamboo
+CircleCI
+Gitlab
+AzureDevOps
+======================================================================================
+How Jenkins Works - jenkins Architecture????
+https://www.devopsschool.com/blog/jenkins-architecture-explained/
+
+HUMAN -> WEB(JENKINS)		---> STORE
+		------------
+			JAVA				XML FILE
+
+
+
+HUMAN -> JENKINS SERVER	--->	  Jenkins Node(S)
+		--- JOBS								- LINUX
+											- WIndows
+	
+===============================================================================
+How to install jenkins?
+https://www.devopsschool.com/blog/complete-tutorial-of-jenkins-installation-and-configuration/
+https://www.devopsschool.com/blog/complete-guide-of-java-installation-in-linux/
+----------------------------------------
+Demo of Centos 7
+-----------------------
+3.109.55.168
+centos
+key - rajesh-mumbai.pem
+
+ssh -i rajesh-mumbai.pem centos@3.109.55.168
+
+  5  yum install java-11-openjdk-devel
+    9  sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+   10  yum install wget -y
+   11  clear
+   12  sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+   13  sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+   14  yum install fontconfig java-11-openjdk
+   15  clear
+   16  yum install jenkins
+   17  clear
+   18  systemctl status jenkins
+   19  systemctl start jenkins
+   20  systemctl status jenkins
+   21  clear
+   22  systemctl stop jenkins
+   23  systemctl start jenkins
+   24  systemctl status jenkins
+
+======================================================================
+PORT - 8080
+Config file -  
+more /etc/init.d/jenkins
+JENKINS_CONFIG=/etc/sysconfig/jenkins
+
+
+Demo of Docker
+Demo of windows
+Demo of Ubuntu
+
+
+
+======================
+Terminology
+
+Workflow
+
+Secret Formula
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
