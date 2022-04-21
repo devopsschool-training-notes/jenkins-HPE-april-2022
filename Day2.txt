@@ -1,0 +1,85 @@
+============================
+What is Jenkins?
+What is CI?
+Why jenkins?
+Other tools
+How jenkins works?
+Jenkins Installation config
+Terminolgy
+Basic workflow of Jenkins
+Jenkins Triggers
+============================
+
+PLAN -> CODE -> Code Review -> Build -> UT -> Packaging -> Archiving -> Dep2QA -> AT -> CodeCoverage
+-----------------------------------------------------------------------------------------------------
+JIRA -> GIT  -> Sonarqube   -> Maven -> Junit-> WAR     -> Nexus     -> Ansible -> Selenium -> Jacoco
+================================================================================================
+								jenkins
+13.232.253.176
+---------------------
+Jira
+-------------
+docker volume create --name jiraVolume
+docker run -v jiraVolume:/var/atlassian/application-data/jira --name="jira" -d -p 8080:8080 atlassian/jira-software
+
+http://13.232.253.176:8080/
+rajesh
+rajesh123
+
+Sonarqube
+--------------------------
+3.109.211.93
+http://3.109.211.93:9000/
+admin
+Admin$123
+
+Nexus
+-----------
+http://13.232.253.176:8081/
+docker run -d -p 8081:8081 --name nexus sonatype/nexus3
+by docker
+admin
+admin123
+
+Jenkins
+http://3.108.52.223:8080/
+rajesh
+rajesh123
+==============================================================
+PHYSCIAL SERVERS	->	Virtual Servers		-> 	Container
+---------------------------------------------------------------
+					hypervisor				Docker	
+
+					AWS					Kubernetes							
+					GC
+					Azure
+					Vmware
+					vshp
+					
+Jira Integration with Jenkins
+================================
+https://www.devopsschool.com/blog/how-to-integration-jira-with-jenkins-as-part-of-ci-cd/
+
+Step 1 - Create a project in Jira		- DONE
+Step 2 - crate a job in Jenkins		- DONE
+Step 3 - Install Jira Plugins			[ ONE TIME ]	- DONE
+Step 4 - Config Jira Plugins			- DONE
+Step 5 - Use Jira plugins in the Job
+			- Issue Creation - error
+			- version creation - working
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
