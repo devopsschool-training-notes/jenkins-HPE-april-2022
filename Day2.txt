@@ -48,6 +48,12 @@ Jenkins
 http://3.108.52.223:8080/
 rajesh
 rajesh123
+
+Using PUTTY
+------------------------
+IP - 3.108.52.223
+User name - centos
+Password - GHSY$322
 ==============================================================
 PHYSCIAL SERVERS	->	Virtual Servers		-> 	Container
 ---------------------------------------------------------------
@@ -83,11 +89,29 @@ Step 4 - Create a job
 https://www.devopsschool.com/blog/how-to-integrate-sonarqube-with-jenkins-as-part-of-ci-cd/
 
 
+========================
+JAVA 
+	Main - Software
+	Test - testing a Software
+	-----------------------------
+		Unit	---> Result (HTML XML)
+	UI
+	X
+	Y
+https://www.devopsschool.com/blog/how-to-configure-junit-reports-at-jenkins/
+
+How to deploy a package to nexus?
+-----------------------------------
+Step 1- Install nexus plugin		DONE
+
+Step 2 - Create a repo in Nexus		DONE
+
+Step 3 Configure nexus in Jenkins
+
+Step 4 - Use nexus in jenkins job
 
 
-
-
-
+https://www.devopsschool.com/blog/nexus-integration-with-jenkins-to-upload-download-package/
 
 
 
