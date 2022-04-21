@@ -33,6 +33,9 @@ http://3.109.211.93:9000/
 admin
 Admin$123
 
+Token
+4fb1fae2bb74caa731bedde698ca09022429c1b2
+
 Nexus
 -----------
 http://13.232.253.176:8081/
@@ -67,12 +70,17 @@ Step 4 - Config Jira Plugins			- DONE
 Step 5 - Use Jira plugins in the Job
 			- Issue Creation - error
 			- version creation - working
+=======================================================
+How to integrate Jenkins with SonarQube?
+-------------------------------------------------------
+Step 1 - Install SonarQube plugins		- ONE TIME	DONE
+Step 2 - Install SonarQube Scanner in Jenkins tool	DONE
+Step 3 - Configure SonarQube server at Jenkins		DONE
+Step 4 - Create a job
+			- RUN SCANNER OF THE SOURCE CODE
+- https://github.com/devopsschool-demo-labs-projects/java-sonarqube-helloworld-src
 
-
-
-
-
-
+https://www.devopsschool.com/blog/how-to-integrate-sonarqube-with-jenkins-as-part-of-ci-cd/
 
 
 
