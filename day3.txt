@@ -1,0 +1,106 @@
+Build -> Docker image -> Registry -> Deploy to QA
+----------------------------------------------------
+Call a Builder
+
+if the file exist
+	Call a dockerfile
+Call docker push
+-----------
+Ansible
+Chef
+Puppet
+Terraform
+Kubernetes
+Docker compose
+
+GIT version control
+Repo Size - 1000MB X 50 = 5 GB
+-------------------------
+
+100 MB		- 5GB
+-----------------
+1 mins			1 hour
+==============================================================================
+Immediate Feedback
+---------------------------
+		Email
+		Chat
+		Dashboard - Pipeline
+
+Working with Distributed Jenkins
+		- Executor
+		- Concurrency
+		- Add a Linux Node & windows Node
+
+Jenkins CMD
+
+Jenkins Backup and Restore
+
+Jenkins Authentication and Authorization
+
+Top jenkins plugins
+=================================================
+
+Immediate Feedback - Email
+---------------------------
+- Install Plugins
+	- Mailer Plugin - Basic
+	- Email Extension Plugin - Advance
+- Config plugins
+- Use plugins in the job
+
+Immediate Feedback - Chat
+---------------------------
+- Install Plugins
+	- Slack
+	- Team
+	- Skype
+- Config plugins
+- Use plugins in the job
+
+Immediate Feedback - Dashboard - Pipeline - View
+---------------------------
+View
+
+Dashboard
+- Build Pipeline
+		- All the Jobs need to be linked
+
+Pipeline 
+	stage
+		step 1
+		step 2
+		step 3
+	stage
+		step 1
+		step 2
+		step 3
+	stage
+		step 1
+		step 2
+		step 3
+	stage
+		step 1
+		step 2
+		step 3
+======================================
+				DEVOPS
+- Are you CODING for the product?
+- Are you CODING for testing a product?
+- Are you CODING for infra/deploy/ci/cd/monitoring?
+	- Ansible	- roles
+	- Terraform	- tf
+	- Helm		- yaml
+	- dockerfile dockercompose	yaml
+	- jenkins - jenkinsfile	jenkinsfile
+
+
+
+
+
+
+
+
+
+
+
