@@ -95,9 +95,41 @@ Pipeline
 	- jenkins - jenkinsfile	jenkinsfile
 
 
+==========================================================
+Working with Distributed Jenkins
+		- Executor	4
+
+		- Concurrency
+
+		- Add a Linux Node & windows Node
+========================X job========================
+Sridhar
+10.00  ---------------------------------------> 11 Am
+					 1 H
+
+Jami											> 11:00 -----> 12 PM
+10.10  
+
+Rajesh
+10.15															 1 PM
+=========================================================
+Adding a node or agent
+	Node _ manually
+	- linux
+		- java - ssh
+		IP - user - pass|key
+	- windows
+		- agent
+	Cloud - Auto
+	Container	
+==================================
+Job1 ---> gon 
+Job2 ---> gon
 
 
-
+Group of Nodes (gon)
+---------------
+Node 1 + Node 2
 
 
 
