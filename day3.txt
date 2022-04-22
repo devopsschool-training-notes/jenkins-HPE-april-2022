@@ -131,7 +131,36 @@ Group of Nodes (gon)
 ---------------
 Node 1 + Node 2
 
+=============================
+Jenkins Authentication and Authorization
+-------------
+Authentication - How can i login into Jenkins?
+		UserID - Password	- Store in jenkins
+		Token	- s
+		API Key
+			11c99006df281bcce0cc4956a7937bd330
+		User ID - SSH Key
 
+		LDAP
+		Active Directory
+
+		External Svc
+
+Authorization
+- After Login - What you are allowed to do??
+
+
+
+
+
+
+
+
+
+Jenkins CMD
+
+Jenkins Backup and Restore
+Jenkins Plugins
 
 
 
